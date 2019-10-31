@@ -1,6 +1,10 @@
 # script.get-macaddressinfo
 Script to get the manufacturer company name from a provided mac address
 
+# Git Clone the repository
+
+git clone https://github.com/carlcauchi/script.get-macaddressinfo.git
+
 # Build Docker Image
 
 To build the image, run Docker build from command line that is in the root directory of the application.
@@ -14,4 +18,4 @@ After it is built, you can run the image as a container.
 
 To run the Container, run the following command.
 
-docker run --rm -it --name get-macaddressinfo get-macaddressinfo-container
+docker run --rm -it --name get-macaddressinfo-container get-macaddressinfo
